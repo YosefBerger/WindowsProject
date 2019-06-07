@@ -1,0 +1,13 @@
+﻿<Window x:Class="PL_WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PL_WPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button Name="AddTraineeBtn" Content="Add Trainee" HorizontalAlignment="Left" Width="185" Height="80" Margin="97,157,0,183" Click="AddTraineeBtn_Click" />
+        <Button Name="AllTraineeBtn" Content="All Trainees" HorizontalAlignment="Left" Width="185" Height="80" Margin="413,157,0,183" Click="AllTraineeBtn_Click" />
+    </Grid>
+</Window>
